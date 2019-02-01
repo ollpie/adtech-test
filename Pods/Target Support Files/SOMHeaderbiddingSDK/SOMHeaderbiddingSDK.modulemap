@@ -1,0 +1,6 @@
+framework module SOMHeaderbiddingSDK {
+  umbrella header "SOMHeaderbiddingSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

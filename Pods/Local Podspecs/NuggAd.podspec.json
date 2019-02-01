@@ -1,0 +1,22 @@
+{
+  "name": "NuggAd",
+  "version": "3.2.1",
+  "summary": "NuggAd SDK for iOS.",
+  "homepage": "https://www.nugg.ad/",
+  "license": "",
+  "prefix_header_file": "nuggAdLib/nuggAdLib-Prefix.pch",
+  "authors": {
+    "NuggAd": "mark@mcconachie.me"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "git": "git@ubergit.office.nugg.ad:ios/nuggad-ios-sdk.git"
+  },
+  "source_files": [
+    "NuggAdLib",
+    "NuggAdLib/**/*.{h,m}"
+  ],
+  "exclude_files": ""
+}

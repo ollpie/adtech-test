@@ -1,0 +1,74 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.38.0)
+  - GoogleMobileAdsMediationMoPub (5.3.0.1):
+    - Google-Mobile-Ads-SDK (>= 7.14.0)
+    - mopub-ios-sdk/Core (= 5.3.0)
+  - mopub-ios-sdk/Core (5.3.0)
+  - NuggAd (3.2.1)
+  - SmaatoSDK (9.0.3)
+  - SOMCore (1.1.0):
+    - Google-Mobile-Ads-SDK
+  - SOMHeaderbiddingSDK (2.2.0):
+    - Google-Mobile-Ads-SDK
+    - SOMCore (= 1.1.0)
+  - SOMMediationSDK (2.6.5):
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationMoPub (~> 5.3.0.1)
+    - SmaatoSDK (~> 9.0.2)
+    - SOMCore (= 1.1.0)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - NuggAd (from `https://ubergit.office.nugg.ad/nuggad-sdk/ios.git`, tag `3.2.1`)
+  - SOMCore (from `https://github.com/SevenOneMedia/adtec-app-ios-core.git`, branch `master`)
+  - SOMHeaderbiddingSDK (from `https://github.com/SevenOneMedia/adtec-app-ios-headerbidding.git`, branch `master`)
+  - SOMMediationSDK (from `https://github.com/SevenOneMedia/adtec-app-ios-mediation.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationMoPub
+    - mopub-ios-sdk
+    - SmaatoSDK
+
+EXTERNAL SOURCES:
+  NuggAd:
+    :git: https://ubergit.office.nugg.ad/nuggad-sdk/ios.git
+    :tag: 3.2.1
+  SOMCore:
+    :branch: master
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-core.git
+  SOMHeaderbiddingSDK:
+    :branch: master
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-headerbidding.git
+  SOMMediationSDK:
+    :branch: master
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-mediation.git
+
+CHECKOUT OPTIONS:
+  NuggAd:
+    :git: https://ubergit.office.nugg.ad/nuggad-sdk/ios.git
+    :tag: 3.2.1
+  SOMCore:
+    :commit: 2d499d965e62e3f4f2cfb350bc5522cd494d2efe
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-core.git
+  SOMHeaderbiddingSDK:
+    :commit: 62272009d16d0c0aac41329bf6e6b216bbcc0f77
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-headerbidding.git
+  SOMMediationSDK:
+    :commit: 8c14a3454006bb1f274028630e1e97197ad0db24
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-mediation.git
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: fec4a72b71a81302d3fd75454df3417c03c50ed5
+  GoogleMobileAdsMediationMoPub: 6ee03ab4454752d90681e90adc71286694329ec4
+  mopub-ios-sdk: 995d0cf8bbb5f9e81389ac981c2f1555dc77e84f
+  NuggAd: 4308872b54f32e5abed7411a2ac213c85bcac338
+  SmaatoSDK: 46fa1b22a756fb91863a51f372255c8eacf40900
+  SOMCore: 42eb1201963745b3b5cbfda564553fdb76970c6a
+  SOMHeaderbiddingSDK: 89fe0ca67f2dc57d4efae9c4a384b7c94b1413f8
+  SOMMediationSDK: 2149d23290b637fa9ec95690a7c8c175342a3679
+
+PODFILE CHECKSUM: 0e9cdfa7be2c0e995553adcc790d8d75aa48fec9
+
+COCOAPODS: 1.5.3

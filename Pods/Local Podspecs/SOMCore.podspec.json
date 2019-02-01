@@ -1,0 +1,33 @@
+{
+  "name": "SOMCore",
+  "version": "1.1.0",
+  "summary": "Public Core Classes for SOM's iOS SDKs.",
+  "description": "This Pod consists of public classes used in Seven One Media's SDKs.",
+  "homepage": "https://www.sevenonemedia.de",
+  "license": {
+    "type": "SevenOne Media Platform License",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brehmjuNL": "GITHub"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "3.0",
+  "source": {
+    "git": "https://github.com/SevenOneMedia/adtec-app-ios-core.git",
+    "tag": "1.1.0"
+  },
+  "source_files": [
+    "SOMCore",
+    "SOMCore/**/*.swift"
+  ],
+  "module_name": "SOMCore",
+  "static_framework": true,
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+
+    ]
+  }
+}
