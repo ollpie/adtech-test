@@ -1,0 +1,3 @@
+[submodule "Vendor/NuggAd"]
+	path = Vendor/NuggAd
+	url = https://ubergit.office.nugg.ad/nuggad-sdk/ios.git
